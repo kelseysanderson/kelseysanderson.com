@@ -1,0 +1,60 @@
+.contact-form-container {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+}
+
+.contact-form label {
+    padding: 10px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-family:'Inconsolata';
+}
+.contact-form input.name-email {
+    width: 70%;
+    height: 35px;
+}
+
+.name-email-row {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:25px;
+}
+
+textarea{
+    width: 70%;
+    height: 200px;
+}
+
+.contact-button {
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(214, 213, 213);
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+input[type="submit"]{
+    font-family:'Inconsolata';
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.contact-button:hover {
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border: 2px solid rgb(136, 136, 136);
+}

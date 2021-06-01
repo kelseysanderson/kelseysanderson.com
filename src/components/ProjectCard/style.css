@@ -1,0 +1,42 @@
+.project-image {
+    justify-self: flex-end;
+    padding: 30px;
+    height: 300px;
+    object-fit:contain;
+}
+
+.project-title {
+    text-align:center;
+    font-size: 50px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-container {
+    padding: 25px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px ;
+    padding: 0px ;
+}
+
+.project-list li {
+    padding: 5px;
+    font-size: 22px;
+}
+
+a.project-link {
+    text-decoration:none;
+    color:black
+}
+
+a.project-link:hover{
+    text-decoration:none;
+    color:rgb(75, 75, 75)
+}

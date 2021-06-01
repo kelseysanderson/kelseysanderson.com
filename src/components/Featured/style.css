@@ -1,0 +1,33 @@
+.featured-header {
+    font-size: 45px;
+}
+
+.featured-image-container {
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+.featured-image-container img {
+    max-width: 98%;
+    max-height: 95%;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.blog-text {
+    font-size: 18px;
+    padding: 18px;
+    line-height:32px;
+}
+
+.featured-post{
+    background-color:yellow
+}
+
+@media only screen and (max-width: 900px) {
+    .featured-post {
+        width: 60%;
+        
+    }
+}

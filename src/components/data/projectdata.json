@@ -1,0 +1,41 @@
+{
+    "data" : [
+        {
+            "projectName": "Tech Blog",
+            "technologies": "JavaScript, Node.js, Express, MySQL, Handlebars, CSS, Bootstrap",
+            "projectDescription": "A CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well. This application uses the MVC organizational system.",
+            "myRole": "my role tb",
+            "imageLocation":"https://github.com/kelseysanderson/tech_blog/raw/master/assets/images/techblogscreencapture.jpg",
+            "liveApp":"https://radiant-plains-87467.herokuapp.com/",
+            "githubRepo":"https://github.com/kelseysanderson/tech_blog"
+        },        
+        {
+            "projectName": "User Directory",
+            "technologies": "React, HTML, CSS",
+            "projectDescription": "An app developed using React that allows a user to view their entire employee directory with a search function that allows them to quickly access to employee information.",
+            "myRole": "my role ud",
+            "imageLocation":"https://github.com/kelseysanderson/user_directory/raw/main/user-directory-screencapture.jpg",
+            "liveApp":"https://kelseysanderson.github.io/user_directory/",
+            "githubRepo":"https://github.com/kelseysanderson/user_directory"
+        },
+        {
+            "projectName": "Fitness Tracker",
+            "technologies": "React, HTML, CSS",
+            "projectDescription": "A workout tracker created using Express to handle routing, and Mongo database.",
+            "myRole": "my role ud",
+            "imageLocation":"https://github.com/kelseysanderson/fitness_tracker/raw/main/public/images/stats-page.jpg",
+            "liveApp":"https://fitness-tracker-ksanderson.herokuapp.com/?id=608ce0cc3099fd00159ae30f",
+            "githubRepo":"https://github.com/kelseysanderson/fitness_tracker"
+        },
+        {
+            "projectName": "Weather Dashboard",
+            "technologies": "JavaScript, jQuery, Jest, OpenWeather API, HTML, CSS, Bootstrap",
+            "projectDescription": "A dashboard to search for current and future weather forecasts by city. Cities previously searched are saved to local storage and are then generated into a button to make future searches simple.",
+            "myRole": "my role wd",
+            "imageLocation":"https://github.com/kelseysanderson/weather_dashboard/raw/main/assets/images/revised-screencapture.png",
+            "liveApp":"https://kelseysanderson.github.io/weather_dashboard/",
+            "githubRepo":"https://github.com/kelseysanderson/weather_dashboard"
+        }
+
+    ]
+} 

@@ -1,0 +1,21 @@
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 4px 3px -3px rgb(184, 184, 184);
+    background-color:rgb(255, 255, 255);
+}
+
+footer h2 {
+    text-transform: none;
+    padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        justify-content: center;
+    }
+}

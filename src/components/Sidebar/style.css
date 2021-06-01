@@ -1,0 +1,98 @@
+.card.sidebar {
+    padding:20px;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 26%;
+}
+
+.card-header {
+    padding: 20px 10px 0px 10px;
+    text-align:center;
+    font-size: 22px;
+}
+ 
+p {
+    padding: 20px;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+.portrait-container {
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+.portrait-container img {
+    max-width: 97%;
+    max-height: 90%;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.tech-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    list-style: none;
+    padding:0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+ul.tech-list li {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.current-favorite-header {
+    font-size:25px;
+}
+
+.recent-likes ul {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+.recent-likes ul .favorites-list-item {
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(47, 48, 51);
+    padding-bottom: 50px;
+}
+
+.recent-likes ul .favorites-list-item img{
+    max-width: 100%;
+}
+
+a.recent-likes-link {
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card-header ul .favorites-list-item h3 {
+    font-size: 20px;
+}
+
+/* @media only screen and (max-width: 900px) {
+    .sidebar {
+      width: 40%;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+    }
+  } */
+

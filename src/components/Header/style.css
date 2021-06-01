@@ -1,0 +1,30 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 4px 5px -1px rgb(184, 184, 184);
+    margin-bottom: 50px;
+    padding: 25px;
+
+}
+
+.header-text {
+    letter-spacing: 3px;
+    font-weight:500;
+    font-size: 50px;
+    padding-left: 150px;
+}
+
+.logo{
+    display:flex;
+    align-items:flex-start;
+
+}
+
+/* @media only screen and (max-width: 600px) {
+    .featured-post {
+        width: 55%;
+    }
+} */

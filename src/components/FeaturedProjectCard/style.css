@@ -1,0 +1,35 @@
+.featured-project-image {
+    padding: 15px;
+}
+.featured-project-title {
+    text-align:center;
+    font-size: 50px;
+}
+
+.featured-project-description {
+    font-size: 25px;
+}
+
+.featured-project-container {
+    padding: 30px;
+}
+
+.featured-project-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px ;
+    padding: 0px ;
+}
+
+.featured-project-list li {
+    padding: 5px;
+    font-size: 22px;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    .featured-post {
+        width: 40%;
+    }
+} */

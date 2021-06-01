@@ -1,0 +1,27 @@
+.navbar {
+    padding: 20px;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-list li {
+        display: inline-block;
+        padding: 10px 10px;;
+        letter-spacing: 1px;
+    }
+}
