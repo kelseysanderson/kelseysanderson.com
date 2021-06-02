@@ -1,18 +1,22 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import './style.css';
-import circle from '../../assets/circle.png'
 
 const Header = (props) => {
-  return(
-    <header className="header">
-      <div className='logo'>
-          <h1 className="header-text">Kelsey Sanderson</h1>
+  return (
+    <div className="header-container">
+      <div className="row">
+        <div className="col-12">
+          <header className="header">
+            <h1 className="header-text">Kelsey Sanderson</h1>
+            <Navbar />
+          </header>
+        </div>
       </div>
-       <Navbar/>
-    </header>
-   )
+    </div>
 
- }
+  )
+
+}
 
 export default Header

@@ -1,10 +1,16 @@
+
+.featured-home{
+    width: 69%;
+    margin-left: 6%
+}
+
 .featured-header {
     font-size: 45px;
+    margin-top:0;
 }
 
 .featured-image-container {
     width: 100%;
-    text-align:center;
     box-sizing: border-box;
 }
 
@@ -13,11 +19,14 @@
     max-height: 95%;
     margin: 10px 0;
     border-radius: 3px;
+    float: left;
+    padding: 30px;
 }
 
 .blog-text {
-    font-size: 18px;
-    padding: 18px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
     line-height:32px;
 }
 
@@ -25,9 +34,57 @@
     background-color:yellow
 }
 
+div.technologies {
+    margin-top: 50px;
+}
+
+h3.description {
+    padding: 0 75px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    text-transform:none;
+}
+.tech-list {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+    list-style: none;
+    padding:0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+ul.tech-list li {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+
 @media only screen and (max-width: 900px) {
-    .featured-post {
-        width: 60%;
-        
+    .featured-home {
+      width: 68%;
+      margin-left: 2%;
+    }
+    .featured-image-container img {
+        display:none;
+
+  }
+  h3.description {
+    padding: 0 0px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .featured-home {
+      width: 100%;
+    }
+  
+        .featured-image-container img {
+            display:none;
+        }
+  } 

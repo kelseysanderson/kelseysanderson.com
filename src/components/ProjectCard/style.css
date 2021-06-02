@@ -12,6 +12,7 @@
 
 .project-description {
     font-size: 20px;
+    margin:0;
 }
 
 .project-container {
@@ -39,4 +40,33 @@ a.project-link {
 a.project-link:hover{
     text-decoration:none;
     color:rgb(75, 75, 75)
+}
+
+@media only screen and (max-width: 900px) {
+    .project-image {
+        padding: 10px;
+        height: 200px;
+    }
+    .project-title {
+        font-size: 40px;
+    }
+    .project-list li {
+        font-size: 20px;
+    }
+    .project-description {
+        padding:0;
+        font-size: 16;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-image {
+        display:none
+    }
+    .project-title {
+        font-size: 35px;
+    }
+    .project-list li {
+        font-size: 16px;
+    }
 }

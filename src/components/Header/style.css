@@ -1,3 +1,7 @@
+.header-container {
+    width: 100%;
+}
+
 header {
     display:flex;
     justify-content: space-between;
@@ -23,8 +27,23 @@ header {
 
 }
 
-/* @media only screen and (max-width: 600px) {
-    .featured-post {
-        width: 55%;
+
+@media only screen and (max-width: 785px) {
+    header {
+        justify-content: center;
     }
-} */
+    .header-text {
+        font-size: 40px;
+        text-align:center;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-text {
+        font-size: 30px;
+        text-align:center;
+        padding-left: 0px;
+    }
+}

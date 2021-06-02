@@ -1,7 +1,7 @@
 {
     "data" : [
         {
-            "projectName": "Tech Blog",
+            "projectName": "Tech  Blog",
             "technologies": "JavaScript, Node.js, Express, MySQL, Handlebars, CSS, Bootstrap",
             "projectDescription": "A CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well. This application uses the MVC organizational system.",
             "myRole": "my role tb",
@@ -21,7 +21,7 @@
         {
             "projectName": "Fitness Tracker",
             "technologies": "React, HTML, CSS",
-            "projectDescription": "A workout tracker created using Express to handle routing, and Mongo database.",
+            "projectDescription": "A workout tracker created using Express to handle routing, and Mongo database. A user can input a specific workout or workout session which will then be added and displayed on a dashboard.",
             "myRole": "my role ud",
             "imageLocation":"https://github.com/kelseysanderson/fitness_tracker/raw/main/public/images/stats-page.jpg",
             "liveApp":"https://fitness-tracker-ksanderson.herokuapp.com/?id=608ce0cc3099fd00159ae30f",

@@ -1,10 +1,18 @@
 .contact {
     display:flex;
     justify-content: center;
+    width: 50%;
+}
+
+.contact-page {
+    height: 75vh
 }
 
 .contact-container {
-    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 50%;
 }
 
 .message-header {
@@ -36,4 +44,18 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .contact {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+    }
 }

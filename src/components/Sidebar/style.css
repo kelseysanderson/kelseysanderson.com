@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-    width: 26%;
+    width: 25%;
 }
 
 .card-header {
@@ -26,29 +26,12 @@ p {
 }
 
 .portrait-container img {
-    max-width: 97%;
+    max-width: 90%;
     max-height: 90%;
     margin: 10px 0;
     border-radius: 2px;
 }
 
-.tech-list {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-    list-style: none;
-    padding:0px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-ul.tech-list li {
-    padding: 10px 0px;
-    font-size: 18px;
-}
 
 .current-favorite-header {
     font-size:25px;
@@ -66,11 +49,12 @@ ul.tech-list li {
     margin-right:10px;
     list-style-type: none;
     border-bottom: 2px solid rgb(47, 48, 51);
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .recent-likes ul .favorites-list-item img{
-    max-width: 100%;
+    max-width: 70%;
+    padding: 0 15%;
 }
 
 a.recent-likes-link {
@@ -83,16 +67,17 @@ a.recent-likes-link {
     font-size: 20px;
 }
 
-/* @media only screen and (max-width: 900px) {
+ @media only screen and (max-width: 900px) {
     .sidebar {
-      width: 40%;
+      width: 30%;
     }
   }
 
 
 @media only screen and (max-width: 600px) {
     .sidebar {
+        margin-bottom: 50px;
       width: 100%;
     }
-  } */
+  } 
 

@@ -1,6 +1,19 @@
-.featured-project-image {
-    padding: 15px;
+.featured-project {
+    display:flex;    
+    flex-direction:row;
+    background-color: white;
+    align-items:center;
+    justify-content: space-between; 
+    padding: 40px;
+    margin-bottom:50px;
 }
+
+.featured-project-image {
+    padding: 0 1%;
+    width: 500px;
+    height:100%
+}
+
 .featured-project-title {
     text-align:center;
     font-size: 50px;
@@ -28,8 +41,19 @@
 }
 
 
-/* @media only screen and (max-width: 600px) {
-    .featured-post {
-        width: 40%;
+@media only screen and (max-width: 900px) {
+    .featured-project {
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:center; 
+        padding: 0px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .featured-project-image {
+        padding: 15px 2%;
+        width: 96%;
+        height:100%
     }
-} */
+}

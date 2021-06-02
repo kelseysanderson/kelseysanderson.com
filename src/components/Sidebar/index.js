@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Card from '../Card';
-import portrait from '../../assets/portrait/23847.jpeg';
+import portrait from '../../assets/portrait/23847-1.png';
 import pickleball from '../../assets/current-likes/pickleball.png';
 import canasta from '../../assets/current-likes/canasta.png';
 import tea from '../../assets/current-likes/tea.png';
@@ -26,27 +26,11 @@ const Sidebar = (props) => {
                 </div>
             </Card>
             <Card>
-                <div className='technologies'>
-                <div className='card-header'>
-                    <h1>Proficient Technologies</h1>
-                </div>
-                    <ul className="tech-list">
-                        <li>React</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>Mongo</li>
-                        <li>Git</li>
-                    </ul>
-                </div>
-            </Card>
-            <Card>
                 <div className='recent-likes'>
                 <div className='card-header'>
-                    <h1>Current Favorites</h1>
+                    <h1 className="favorites-header">Hobbies</h1>
                 </div>
+                <h3 className="description">Below are some of my hobbies, they are ever-changing but these are my current go-tos.</h3>
                     <ul className="favorites-list">
                         <li className="favorites-list-item">
                             <h3 className="current-favorite-header">Pickleball</h3>
