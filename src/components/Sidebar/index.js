@@ -22,10 +22,10 @@ const Sidebar = (props) => {
                     <img src={portrait} alt='portrait' className='portrait' />
                 </div>
                 <div className='card-body'>
-                    <p>My name is Kelsey Sanderson. I am a full stack web developer from Minneapolis, MN. </p>
+                    <p className="about-me">My name is Kelsey Sanderson. I am a full stack web developer from Minneapolis, MN. I recently graduated from the University of Minnesota's full stack web development bootcamp and am eager to start a career in tech. </p>
                 </div>
             </Card>
-            <Card>
+            <Card style={{marginTop:"30px"}}>
                 <div className='recent-likes'>
                 <div className='card-header'>
                     <h1 className="favorites-header">Hobbies</h1>
@@ -38,7 +38,7 @@ const Sidebar = (props) => {
                             <img src={pickleball} alt="woman standing on pickleball court"/>
                             If you're interested, check out how to play!</a>
                         </li>
-                        <li className="favorites-list-item">
+                        <li className="favorites-list-item canasta">
                             <h3 className="current-favorite-header">Canasta</h3>
                             <a className="recent-likes-link" href="https://www.canasta-palace.com/">
                             <img src={canasta} alt="person shuffling a deck of cards"/>

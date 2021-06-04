@@ -3,9 +3,8 @@ footer{
     justify-content:space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color:rgb(255, 255, 255);
-    box-shadow: 0 4px 3px -3px rgb(184, 184, 184);
-    background-color:rgb(255, 255, 255);
+        box-shadow: 0 4px 3px -3px rgb(184, 184, 184);
+    height: 50px;
 }
 
 footer h2 {
@@ -13,22 +12,15 @@ footer h2 {
     padding-left: 30px;
 }
 
+footer p {
+    text-indent: 0;
+}
+
 
 @media only screen and (max-width: 600px) {
     footer {
         justify-content: center;
-        height: 100px;
-    }
-    footer h2 {
-        padding-left: 30px;
-        margin:0px;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    footer {
-        justify-content: center;
-        height: 170px;
+        height: 75px;
     }
     footer h2 {
         padding-left: 30px;

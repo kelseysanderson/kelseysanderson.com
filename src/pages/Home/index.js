@@ -6,6 +6,7 @@ import './style.css';
 
 const Home = (props) => {
   document.querySelector('#home-link')?.classList.add('active-nav')
+  document.querySelector('#resume-link')?.classList.remove('active-nav')
   document.querySelector('#work-link')?.classList.remove('active-nav')
   document.querySelector('#contact-link')?.classList.remove('active-nav')
 

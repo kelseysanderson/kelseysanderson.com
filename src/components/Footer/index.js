@@ -10,8 +10,8 @@ import './style.css'
 const Footer = (props) => {
   return(
     <footer className="footer">
-        <h2>&#169; Kelsey Sanderson 2021</h2>
-        <ContactLinks/>
+        <p> &#169; Kelsey Sanderson 2021</p>
+        <ContactLinks style={{ height:'20px'}}/>
     </footer>
    )
  }

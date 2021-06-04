@@ -1,21 +1,27 @@
 .navbar {
-    padding: 0 20px;
+    padding: 0px;
 }
 
 .nav-list {
+    margin:0 ;
     padding: 0;
-    margin: 0;
 }
 
 .nav-list li {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 0px 0px;
+    margin: 30px 150px 50px 150px;
     letter-spacing: 2px;
+}
+
+.nav-list li h3 {
+    padding:0 !important;
+    margin:0 !important
 }
 .nav-list li a{
     text-decoration: none;
     color:black;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -24,25 +30,24 @@
     }
     .nav-list li {
         display: inline-block;
+        margin: 30px 20px 50px 20px;
         padding: 0px 10px;
         letter-spacing: 2px;
     }
-    .nav-list li a{
-        font-size: 25px;
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
     .navbar {
-        padding: 0 5px;
-        font-size: 20px;
+        padding: 0 50px;
+        text-align:center
     }
     .nav-list li {
         display: inline-block;
-        padding: 0px 7px;
+        padding: 0px 10px;
         letter-spacing: 2px;
+        margin: 10px 20px 10px 20px;
+
     }
-    .nav-list li a{
-        font-size: 16px;
-    }
+
 }

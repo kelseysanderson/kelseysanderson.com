@@ -5,11 +5,9 @@
 }
 
 .react-pdf__Document {
-    /* padding: 50px; */
-    /* background-color: whitesmoke; */
     -moz-box-shadow: 0 0 3px rgb(170, 170, 170);
     -webkit-box-shadow: 0 0 3px rgb(170, 170, 170);
-    box-shadow: 0 0 20px rgb(170, 170, 170);
+    box-shadow: 0 0 10px rgb(170, 170, 170);
     border-radius: 5px;
 
 }

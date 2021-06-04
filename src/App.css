@@ -3,12 +3,11 @@ body {
    margin:0;
    padding:0;
    height:100%;
-   background-color: rgb(193, 208, 211);
 }
 
 
 main {
-    width: 89%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 50px;
     padding-bottom: 150px;
@@ -24,17 +23,25 @@ footer {
  }
 
 h1, h2, h3, label {
-    text-transform: uppercase;
-    font-family:'Inconsolata';
+    text-transform: lowercase;
+    font-family:'Montserrat';
     font-weight: 400;
-    color: rgb(47, 48, 51)
+    color: #142565
 }
 
-.active-nav {
-    font-weight:500;
-    text-decoration: underline;
-    font-size:45px;
+.active-nav{
+    border-bottom:2px solid  #142565;
 }
 
+@media only screen and (max-width: 1000px) {
+    main {
+        width: 90%;
+    }
 
+}
 
+@media only screen and (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+}

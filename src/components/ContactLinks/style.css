@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.contact-links a img {
+    height:35px;
+
+}
+
+
 .contact-links img {
     padding: 0px 15px;
 }
