@@ -1,28 +1,4 @@
- svg text {
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    stroke: #ffffff;
-    font-size: 50px;
-    font-weight: 700;
-    stroke-width: 1;
-    animation: textAnimate 7s infinite alternate;
-  }
-  
-  @keyframes textAnimate {
-    0% {
-      stroke-dasharray: 0 50%;
-      stroke-dashoffset:  20%;
-      fill:#142665b0;
-    }
-    
-    100% {
-      stroke-dasharray: 50% 0;
-      stroke-dashoffstet: -20%;
-      fill: #0a1b58;
-    }
-    
-  }
+
 
 .header-container {
     width: 100%;
@@ -38,6 +14,8 @@ header {
     background-color:#becbdb;
     box-shadow: 0 1px 3px -1px rgb(210, 209, 211);
     margin-bottom: 50px;
+    fill: none;
+
 }
 
 .patterns {
@@ -50,6 +28,35 @@ header {
     letter-spacing: 3px;
     font-weight:500;
     font-size: 30px;
+}
+
+
+
+svg text {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  stroke: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  stroke-width: 1;
+  animation: textAnimate 7s infinite alternate;
+  background-color:#becbdb !important;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:#142665b0;
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: #0a1b58;
+  }
+  
 }
 
 @media only screen and (max-width: 1000px) {
