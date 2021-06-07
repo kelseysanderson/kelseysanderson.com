@@ -28,9 +28,9 @@ const Sidebar = (props) => {
             <Card style={{marginTop:"30px"}}>
                 <div className='recent-likes'>
                 <div className='card-header'>
-                    <h1 className="favorites-header">Hobbies</h1>
+                    <h1 className="favorites-header">Interests</h1>
                 </div>
-                <h3 className="description">Below are some of my hobbies, they are ever-changing but these are my current go-tos.</h3>
+                <h3 className="description">When I'm not programming, these are some things enjoy.</h3>
                     <ul className="favorites-list">
                         <li className="favorites-list-item">
                             <h3 className="current-favorite-header">Pickleball</h3>

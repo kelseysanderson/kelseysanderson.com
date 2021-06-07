@@ -3,6 +3,11 @@
     width: 45%;
     margin-bottom:50px;
 }
+
+.project-container {
+    display:flex;
+    flex-direction: column;
+}
 .project-image {
     height: 150px;
     width: 200px;
