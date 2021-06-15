@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './style.css'
 import { Document, Page, pdfjs, } from 'react-pdf';
-import resume from '../../../src/assets/resume/ksanderson-resume.pdf';
+import resume from '../../../src/assets/resume/ksanderson_resume.pdf';
 import useWindowDimensions from '../useWindowDimensions'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
