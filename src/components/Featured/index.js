@@ -45,7 +45,7 @@ const Featured = (props) => {
                 <div className='card-header'>
                     <h1 className="featured-header-text">Proficient Technologies</h1>
                 </div>
-                <h3 className="description featured-header-text">The following is list of technologies that I have worked with often and feel most proficient in. There are additional technologies I have used, but did not include.</h3>
+                <h3 className="description featured-header-text">The following is list of technologies that I have worked with often and feel most proficient in.</h3>
                     <ul className="tech-list">
                         <li>React</li>
                         <li>JavaScript</li>
