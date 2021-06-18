@@ -21,6 +21,10 @@ export default function ContactUs() {
     <div className="contact-form-container">
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="name-email-row">
+          <label >Email To:</label>
+          <p>sandersonkelsey1@gmail.com</p>
+        </div>
+        <div className="name-email-row">
           <label >Name:</label>
           <input className="name-email" type="text" name="name" />
         </div>

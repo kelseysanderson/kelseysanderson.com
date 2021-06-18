@@ -6,11 +6,6 @@ import pickleball from '../../assets/current-likes/pickleball.png';
 import canasta from '../../assets/current-likes/canasta.png';
 import tea from '../../assets/current-likes/tea.png';
 
-/**
-* @author
-* @function Sidebar
-**/
-
 const Sidebar = (props) => {
     return (
         <div className='sidebar'>
@@ -30,7 +25,7 @@ const Sidebar = (props) => {
                 <div className='card-header'>
                     <h1 className="favorites-header">Interests</h1>
                 </div>
-                <h3 className="description">When I'm not programming, these are some things enjoy.</h3>
+                <h3 className="description">When I'm not programming, these are some things I enjoy.</h3>
                     <ul className="favorites-list">
                         <li className="favorites-list-item">
                             <h3 className="current-favorite-header">Pickleball</h3>
