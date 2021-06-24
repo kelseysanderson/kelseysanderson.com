@@ -2,20 +2,14 @@ import React from 'react';
 import './style.css';
 import { NavLink } from 'react-router-dom';
 
-
-/**
-* @author
-* @function Navbar
-**/
-
 const Navbar = (props) => {
   return (
       <nav className='navbar'>
           <ul className='nav-list'>
-              <li id="home-link"><NavLink exact to="/"><h3>HOME</h3></NavLink></li>
-              <li id="work-link"><NavLink exact to="/projects"><h3>Projects</h3></NavLink></li>
-              <li id="resume-link"><NavLink exact to="/resume"><h3>Resume</h3></NavLink></li>
-              <li id="contact-link"><NavLink exact to="/contact"><h3>Contact</h3></NavLink></li>
+              <li><h3><NavLink exact activeStyle={{textDecoration:"underline", textDecorationColor:"#142565"}} to="/">HOME</NavLink></h3></li>
+              <li><h3><NavLink exact activeStyle={{textDecoration:"underline", textDecorationColor:"#142565"}} to="/projects">Projects</NavLink></h3></li>
+              <li><h3><NavLink exact activeStyle={{textDecoration:"underline", textDecorationColor:"#142565"}} to="/resume">Resume</NavLink></h3></li>
+              <li><h3><NavLink exact activeStyle={{textDecoration:"underline", textDecorationColor:"#142565"}} to="/contact">Contact</NavLink></h3></li>
           </ul>
       </nav>
   )

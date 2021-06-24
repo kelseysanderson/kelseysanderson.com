@@ -14,14 +14,29 @@
     letter-spacing: 2px;
 }
 
+.nav-list li:hover {
+    letter-spacing: 4px;
+}
+
 .nav-list li h3 {
     padding:0 !important;
     margin:0 !important
 }
+
+.nav-list li a:hover {
+    padding:0 !important;
+    margin:0 !important;
+    letter-spacing: 3px;
+}
+
 .nav-list li a{
     text-decoration: none;
-    color:black;
+    color:#0d1941;
     font-size: 18px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
 }
 
 @media only screen and (max-width: 900px) {

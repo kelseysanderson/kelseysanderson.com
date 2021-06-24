@@ -5,10 +5,6 @@ import ContactForm from '../../components/ContactForm';
 import './style.css';
 
 export default function Contact() {
-    document.querySelector('#home-link')?.classList.remove('active-nav')
-    document.querySelector('#resume-link')?.classList.remove('active-nav')
-    document.querySelector('#work-link')?.classList.remove('active-nav')
-    document.querySelector('#contact-link')?.classList.add('active-nav')
 
     return (
         <div className="contact-page">

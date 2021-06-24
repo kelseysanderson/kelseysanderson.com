@@ -11,27 +11,18 @@ const Header = (props) => {
 
   return (
     <header className="header">
-
       {pathName === '/' ? (
-         <div className="patterns scaled">
-         <svg width="100vw" height="115px">
-           <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
-           <text x="50%" y="60%" textAnchor="middle"  >
+        <div className="patterns scaled">
+          <svg width="100vw" height="115px">
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+            <text x="50%" y="60%" textAnchor="middle"  >
               Kelsey Sanderson
-         </text>
-         </svg>
-       </div>
-
-      ): null } 
-        
-        <Navbar />
-
-
-
-      {/* <h1 className="header-text">Kelsey Sanderson</h1> */}
+            </text>
+          </svg>
+        </div>
+      ) : null}
+      <Navbar />
     </header>
-
-
   )
 
 }
